@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtInput = New System.Windows.Forms.TextBox()
         Me.btnBackSpace = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnOff = New System.Windows.Forms.Button()
@@ -48,12 +48,12 @@ Partial Class Form1
         Me.cmdSubtract = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'txtInput
         '
-        Me.TextBox1.Location = New System.Drawing.Point(11, 19)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(476, 22)
-        Me.TextBox1.TabIndex = 0
+        Me.txtInput.Location = New System.Drawing.Point(11, 19)
+        Me.txtInput.Name = "txtInput"
+        Me.txtInput.Size = New System.Drawing.Size(476, 22)
+        Me.txtInput.TabIndex = 0
         '
         'btnBackSpace
         '
@@ -120,7 +120,7 @@ Partial Class Form1
         '
         'btnPower
         '
-        Me.btnPower.Location = New System.Drawing.Point(405, 142)
+        Me.btnPower.Location = New System.Drawing.Point(374, 144)
         Me.btnPower.Name = "btnPower"
         Me.btnPower.Size = New System.Drawing.Size(75, 23)
         Me.btnPower.TabIndex = 8
@@ -290,7 +290,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnOff)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnBackSpace)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtInput)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -298,7 +298,7 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtInput As TextBox
     Friend WithEvents btnBackSpace As Button
     Friend WithEvents btnClear As Button
     Friend WithEvents btnOff As Button
