@@ -25,7 +25,7 @@ Partial Class Form1
         Me.txtInput = New System.Windows.Forms.TextBox()
         Me.btnBackSpace = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnOff = New System.Windows.Forms.Button()
+        Me.btnPercent = New System.Windows.Forms.Button()
         Me.btnNum7 = New System.Windows.Forms.Button()
         Me.btnNum8 = New System.Windows.Forms.Button()
         Me.btnNum9 = New System.Windows.Forms.Button()
@@ -52,212 +52,212 @@ Partial Class Form1
         '
         Me.txtInput.Location = New System.Drawing.Point(11, 19)
         Me.txtInput.Name = "txtInput"
-        Me.txtInput.Size = New System.Drawing.Size(476, 22)
+        Me.txtInput.Size = New System.Drawing.Size(327, 22)
         Me.txtInput.TabIndex = 0
         '
         'btnBackSpace
         '
         Me.btnBackSpace.Location = New System.Drawing.Point(13, 81)
         Me.btnBackSpace.Name = "btnBackSpace"
-        Me.btnBackSpace.Size = New System.Drawing.Size(107, 35)
+        Me.btnBackSpace.Size = New System.Drawing.Size(118, 35)
         Me.btnBackSpace.TabIndex = 1
         Me.btnBackSpace.Text = "BackSpace"
         Me.btnBackSpace.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(142, 81)
+        Me.btnClear.Location = New System.Drawing.Point(150, 81)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(93, 35)
+        Me.btnClear.Size = New System.Drawing.Size(112, 35)
         Me.btnClear.TabIndex = 2
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
-        'btnOff
+        'btnPercent
         '
-        Me.btnOff.Location = New System.Drawing.Point(287, 81)
-        Me.btnOff.Name = "btnOff"
-        Me.btnOff.Size = New System.Drawing.Size(84, 35)
-        Me.btnOff.TabIndex = 3
-        Me.btnOff.Text = "OFF"
-        Me.btnOff.UseVisualStyleBackColor = True
+        Me.btnPercent.Location = New System.Drawing.Point(282, 81)
+        Me.btnPercent.Name = "btnPercent"
+        Me.btnPercent.Size = New System.Drawing.Size(48, 35)
+        Me.btnPercent.TabIndex = 3
+        Me.btnPercent.Text = "%"
+        Me.btnPercent.UseVisualStyleBackColor = True
         '
         'btnNum7
         '
         Me.btnNum7.Location = New System.Drawing.Point(18, 142)
         Me.btnNum7.Name = "btnNum7"
-        Me.btnNum7.Size = New System.Drawing.Size(70, 35)
+        Me.btnNum7.Size = New System.Drawing.Size(48, 35)
         Me.btnNum7.TabIndex = 4
         Me.btnNum7.Text = "7"
         Me.btnNum7.UseVisualStyleBackColor = True
         '
         'btnNum8
         '
-        Me.btnNum8.Location = New System.Drawing.Point(104, 142)
+        Me.btnNum8.Location = New System.Drawing.Point(83, 142)
         Me.btnNum8.Name = "btnNum8"
-        Me.btnNum8.Size = New System.Drawing.Size(66, 35)
+        Me.btnNum8.Size = New System.Drawing.Size(48, 35)
         Me.btnNum8.TabIndex = 5
         Me.btnNum8.Text = "8"
         Me.btnNum8.UseVisualStyleBackColor = True
         '
         'btnNum9
         '
-        Me.btnNum9.Location = New System.Drawing.Point(187, 144)
+        Me.btnNum9.Location = New System.Drawing.Point(150, 142)
         Me.btnNum9.Name = "btnNum9"
-        Me.btnNum9.Size = New System.Drawing.Size(65, 33)
+        Me.btnNum9.Size = New System.Drawing.Size(48, 35)
         Me.btnNum9.TabIndex = 6
         Me.btnNum9.Text = "9"
         Me.btnNum9.UseVisualStyleBackColor = True
         '
         'btnDivide
         '
-        Me.btnDivide.Location = New System.Drawing.Point(286, 144)
+        Me.btnDivide.Location = New System.Drawing.Point(214, 142)
         Me.btnDivide.Name = "btnDivide"
-        Me.btnDivide.Size = New System.Drawing.Size(75, 23)
+        Me.btnDivide.Size = New System.Drawing.Size(48, 35)
         Me.btnDivide.TabIndex = 7
         Me.btnDivide.Text = "/"
         Me.btnDivide.UseVisualStyleBackColor = True
         '
         'btnPower
         '
-        Me.btnPower.Location = New System.Drawing.Point(374, 144)
+        Me.btnPower.Location = New System.Drawing.Point(282, 142)
         Me.btnPower.Name = "btnPower"
-        Me.btnPower.Size = New System.Drawing.Size(75, 23)
+        Me.btnPower.Size = New System.Drawing.Size(48, 35)
         Me.btnPower.TabIndex = 8
         Me.btnPower.Text = "x^"
         Me.btnPower.UseVisualStyleBackColor = True
         '
         'btnNum4
         '
-        Me.btnNum4.Location = New System.Drawing.Point(13, 209)
+        Me.btnNum4.Location = New System.Drawing.Point(18, 197)
         Me.btnNum4.Name = "btnNum4"
-        Me.btnNum4.Size = New System.Drawing.Size(75, 23)
+        Me.btnNum4.Size = New System.Drawing.Size(48, 35)
         Me.btnNum4.TabIndex = 9
         Me.btnNum4.Text = "4"
         Me.btnNum4.UseVisualStyleBackColor = True
         '
         'btnNum5
         '
-        Me.btnNum5.Location = New System.Drawing.Point(118, 209)
+        Me.btnNum5.Location = New System.Drawing.Point(83, 197)
         Me.btnNum5.Name = "btnNum5"
-        Me.btnNum5.Size = New System.Drawing.Size(75, 23)
+        Me.btnNum5.Size = New System.Drawing.Size(48, 35)
         Me.btnNum5.TabIndex = 10
         Me.btnNum5.Text = "5"
         Me.btnNum5.UseVisualStyleBackColor = True
         '
         'btnNum6
         '
-        Me.btnNum6.Location = New System.Drawing.Point(200, 209)
+        Me.btnNum6.Location = New System.Drawing.Point(150, 197)
         Me.btnNum6.Name = "btnNum6"
-        Me.btnNum6.Size = New System.Drawing.Size(75, 23)
+        Me.btnNum6.Size = New System.Drawing.Size(48, 35)
         Me.btnNum6.TabIndex = 11
         Me.btnNum6.Text = "6"
         Me.btnNum6.UseVisualStyleBackColor = True
         '
         'btnMultiply
         '
-        Me.btnMultiply.Location = New System.Drawing.Point(282, 209)
+        Me.btnMultiply.Location = New System.Drawing.Point(214, 197)
         Me.btnMultiply.Name = "btnMultiply"
-        Me.btnMultiply.Size = New System.Drawing.Size(75, 23)
+        Me.btnMultiply.Size = New System.Drawing.Size(48, 35)
         Me.btnMultiply.TabIndex = 12
         Me.btnMultiply.Text = "*"
         Me.btnMultiply.UseVisualStyleBackColor = True
         '
         'btnSqrt
         '
-        Me.btnSqrt.Location = New System.Drawing.Point(374, 209)
+        Me.btnSqrt.Location = New System.Drawing.Point(282, 197)
         Me.btnSqrt.Name = "btnSqrt"
-        Me.btnSqrt.Size = New System.Drawing.Size(75, 23)
+        Me.btnSqrt.Size = New System.Drawing.Size(48, 35)
         Me.btnSqrt.TabIndex = 13
         Me.btnSqrt.Text = "Sqrt"
         Me.btnSqrt.UseVisualStyleBackColor = True
         '
         'btnNum1
         '
-        Me.btnNum1.Location = New System.Drawing.Point(13, 270)
+        Me.btnNum1.Location = New System.Drawing.Point(18, 252)
         Me.btnNum1.Name = "btnNum1"
-        Me.btnNum1.Size = New System.Drawing.Size(75, 23)
+        Me.btnNum1.Size = New System.Drawing.Size(48, 35)
         Me.btnNum1.TabIndex = 14
         Me.btnNum1.Text = "1"
         Me.btnNum1.UseVisualStyleBackColor = True
         '
         'btnNum2
         '
-        Me.btnNum2.Location = New System.Drawing.Point(95, 270)
+        Me.btnNum2.Location = New System.Drawing.Point(83, 252)
         Me.btnNum2.Name = "btnNum2"
-        Me.btnNum2.Size = New System.Drawing.Size(75, 23)
+        Me.btnNum2.Size = New System.Drawing.Size(48, 35)
         Me.btnNum2.TabIndex = 15
         Me.btnNum2.Text = "2"
         Me.btnNum2.UseVisualStyleBackColor = True
         '
         'btnNum3
         '
-        Me.btnNum3.Location = New System.Drawing.Point(177, 269)
+        Me.btnNum3.Location = New System.Drawing.Point(150, 252)
         Me.btnNum3.Name = "btnNum3"
-        Me.btnNum3.Size = New System.Drawing.Size(75, 23)
+        Me.btnNum3.Size = New System.Drawing.Size(48, 35)
         Me.btnNum3.TabIndex = 16
         Me.btnNum3.Text = "3"
         Me.btnNum3.UseVisualStyleBackColor = True
         '
         'cmdEquals
         '
-        Me.cmdEquals.Location = New System.Drawing.Point(377, 316)
+        Me.cmdEquals.Location = New System.Drawing.Point(282, 307)
         Me.cmdEquals.Name = "cmdEquals"
-        Me.cmdEquals.Size = New System.Drawing.Size(75, 23)
+        Me.cmdEquals.Size = New System.Drawing.Size(48, 35)
         Me.cmdEquals.TabIndex = 17
         Me.cmdEquals.Text = "="
         Me.cmdEquals.UseVisualStyleBackColor = True
         '
         'btn1byx
         '
-        Me.btn1byx.Location = New System.Drawing.Point(377, 269)
+        Me.btn1byx.Location = New System.Drawing.Point(282, 252)
         Me.btn1byx.Name = "btn1byx"
-        Me.btn1byx.Size = New System.Drawing.Size(75, 23)
+        Me.btn1byx.Size = New System.Drawing.Size(48, 35)
         Me.btn1byx.TabIndex = 18
         Me.btn1byx.Text = "1/x"
         Me.btn1byx.UseVisualStyleBackColor = True
         '
         'btnNum0
         '
-        Me.btnNum0.Location = New System.Drawing.Point(13, 316)
+        Me.btnNum0.Location = New System.Drawing.Point(18, 307)
         Me.btnNum0.Name = "btnNum0"
-        Me.btnNum0.Size = New System.Drawing.Size(75, 23)
+        Me.btnNum0.Size = New System.Drawing.Size(48, 35)
         Me.btnNum0.TabIndex = 19
         Me.btnNum0.Text = "0"
         Me.btnNum0.UseVisualStyleBackColor = True
         '
         'cmdNegative
         '
-        Me.cmdNegative.Location = New System.Drawing.Point(118, 316)
+        Me.cmdNegative.Location = New System.Drawing.Point(83, 307)
         Me.cmdNegative.Name = "cmdNegative"
-        Me.cmdNegative.Size = New System.Drawing.Size(75, 23)
+        Me.cmdNegative.Size = New System.Drawing.Size(48, 35)
         Me.cmdNegative.TabIndex = 20
         Me.cmdNegative.Text = "+/-"
         Me.cmdNegative.UseVisualStyleBackColor = True
         '
         'cmdDecimal
         '
-        Me.cmdDecimal.Location = New System.Drawing.Point(214, 316)
+        Me.cmdDecimal.Location = New System.Drawing.Point(150, 307)
         Me.cmdDecimal.Name = "cmdDecimal"
-        Me.cmdDecimal.Size = New System.Drawing.Size(75, 23)
+        Me.cmdDecimal.Size = New System.Drawing.Size(48, 35)
         Me.cmdDecimal.TabIndex = 21
         Me.cmdDecimal.Text = "."
         Me.cmdDecimal.UseVisualStyleBackColor = True
         '
         'cmdAdd
         '
-        Me.cmdAdd.Location = New System.Drawing.Point(296, 316)
+        Me.cmdAdd.Location = New System.Drawing.Point(214, 307)
         Me.cmdAdd.Name = "cmdAdd"
-        Me.cmdAdd.Size = New System.Drawing.Size(75, 23)
+        Me.cmdAdd.Size = New System.Drawing.Size(48, 35)
         Me.cmdAdd.TabIndex = 22
         Me.cmdAdd.Text = "+"
         Me.cmdAdd.UseVisualStyleBackColor = True
         '
         'cmdSubtract
         '
-        Me.cmdSubtract.Location = New System.Drawing.Point(282, 269)
+        Me.cmdSubtract.Location = New System.Drawing.Point(214, 252)
         Me.cmdSubtract.Name = "cmdSubtract"
-        Me.cmdSubtract.Size = New System.Drawing.Size(75, 23)
+        Me.cmdSubtract.Size = New System.Drawing.Size(48, 35)
         Me.cmdSubtract.TabIndex = 23
         Me.cmdSubtract.Text = "-"
         Me.cmdSubtract.UseVisualStyleBackColor = True
@@ -266,7 +266,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(496, 450)
+        Me.ClientSize = New System.Drawing.Size(350, 363)
         Me.Controls.Add(Me.cmdSubtract)
         Me.Controls.Add(Me.cmdAdd)
         Me.Controls.Add(Me.cmdDecimal)
@@ -287,7 +287,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnNum9)
         Me.Controls.Add(Me.btnNum8)
         Me.Controls.Add(Me.btnNum7)
-        Me.Controls.Add(Me.btnOff)
+        Me.Controls.Add(Me.btnPercent)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnBackSpace)
         Me.Controls.Add(Me.txtInput)
@@ -301,7 +301,7 @@ Partial Class Form1
     Friend WithEvents txtInput As TextBox
     Friend WithEvents btnBackSpace As Button
     Friend WithEvents btnClear As Button
-    Friend WithEvents btnOff As Button
+    Friend WithEvents btnPercent As Button
     Friend WithEvents btnNum7 As Button
     Friend WithEvents btnNum8 As Button
     Friend WithEvents btnNum9 As Button
